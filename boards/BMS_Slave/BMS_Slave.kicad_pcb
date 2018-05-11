@@ -16,7 +16,7 @@
   (layers
     (0 F.Cu signal)
     (1 In1.Cu signal hide)
-    (2 In2.Cu signal hide)
+    (2 In2.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -60,8 +60,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 0.8 0.8)
     (mod_text_width 0.12)
-    (pad_size 5.6482 5.6482)
-    (pad_drill 4.2639)
+    (pad_size 5.57 5.57)
+    (pad_drill 5.56)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (grid_origin 80.645 125.73)
@@ -5476,7 +5476,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.6482 4.6482) (drill 3.2639) (layers *.Cu *.Mask))
   )
 
-  (module footprints:Mounting_Hole_Insert_4-40 (layer F.Cu) (tedit 5A9DEFB7) (tstamp 5A9905AF)
+  (module footprints:Mounting_Hole_Insert_4-40 (layer F.Cu) (tedit 5AE7AC8A) (tstamp 5A9905AF)
     (at 75.565 71.755)
     (path /59FFDBD2)
     (fp_text reference J4 (at 0 3.81) (layer F.SilkS) hide
